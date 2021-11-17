@@ -86,7 +86,7 @@ async def get_users(event):
         try:
             if error.startswith("Too"):
                 return await REBEL.edit(
-                    f"**Terminal Finished With Error**\n(`May Got Limit Error from telethon Please try agin Later`)\n**Error** : \n`{error}`\n\n• Invited `{s}` people \n• Failed to Invite `{f}` people"
+                     f"**Tᴇʀᴍɪɴᴀʟ Fɪɴɪsʜᴇᴅ Wɪᴛʜ Eʀʀᴏʀ Bᴄᴏᴢ Aᴀᴘᴋᴀ Aᴄᴄᴏᴜɴᴛ Lɪᴍɪᴛᴇᴅ Hᴇ\n\n• Invited `{s}` people \n• Failed to Invite `{f}` people"
                 )
             await event.client(
                 functions.channels.InviteToChannelRequest(channel=chat, users=[user.id])
