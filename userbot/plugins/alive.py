@@ -41,6 +41,7 @@ pm_caption += f"┣•➳➠ `𝚂𝚞𝚍𝚘:` `{sudou}`\n"
 pm_caption += f"┣•➳➠ `𝙲𝚑𝚊𝚗𝚗𝚎𝚕:` [𝙹𝙾𝙸𝙽](https://t.me/lynx_userbot)\n"
 pm_caption += f"┣•➳➠ `𝙲𝚛𝚎𝚊𝚝𝚘𝚛:` [Mr.Developer](https://t.me/mr_developer_xd)\n"
 pm_caption += f"┣•➳➠ `𝙲𝚛𝚎𝚊𝚝𝚘𝚛:` [Mrs.Developer](https://t.me/mrs_developer_xdd)\n"
+pm_caption += f"┣•➳➠ `Do Join:` [Love Yourself](https://t.me/Loveee_yourselff)\n"
 pm_caption += f"┗━━━━━━━━━━━━━━━━━━\n"
 pm_caption += " [🔥𝐑𝐄𝐏𝐎🔥](https://github.com/Itz-UNKOWN-xd/Lynx-Bot) 🔹 [📜𝐋𝐢𝐜𝐞𝐧𝐬𝐞📜](https://github.com/Itz-UNKOWN-xd/Lynx-Bot/blob/main/LICENSE)"
 
