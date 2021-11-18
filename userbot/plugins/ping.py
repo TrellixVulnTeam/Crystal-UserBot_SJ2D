@@ -5,7 +5,7 @@ import time
 from .. import ALIVE_NAME, CMD_HELP
 from ..utils import admin_cmd, edit_or_reply, sudo_cmd
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Lynx User"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Crystal User"
 
 
 
@@ -22,10 +22,10 @@ async def _(event):
 ┗┛━━━━━┛┛┗┛━┓┃┛
 ━━━━━━━━━━━━┛┃━
 ━━━━━━━━━━━━━┛━
-__Lynx-Bot__ is **ON!**ツ
+__Crystal-Bot__ is **ON!**ツ
 •My Master→ {DEFAULTUSER}
 ↓||•Ms•||↓
-Support :- @LynxBot_chat
+Support :- @CrystalBot_chat
 """
     st = time.time()
 
