@@ -83,7 +83,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             veriler = button(0, sorted(CMD_HELP))
             result = await builder.article(
                 f"Hey! Only use .help please",
-                text=f"**Running LynxBot**[⚡🔥]({REBEL_help_pic})\n\n__Number of plugins installed__ :`{len(CMD_HELP)}`\n**page:** 1/{veriler[0]}",
+                text=f"**Running CrystalBot**[⚡🔥]({REBEL_help_pic})\n\n__Number of plugins installed__ :`{len(CMD_HELP)}`\n**page:** 1/{veriler[0]}",
                 buttons=veriler[1],
                 link_preview=True,
             )
@@ -97,18 +97,18 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             )
         elif event.text=='':
             result = builder.article(
-                "@LynxBot_chat",
-                text=f"""**Hey![🤗]({REBEL_help_pic}) This is [LynxBot.](https://t.me/LynxBot_chat)\nYou can know more about me from the links given below 👇**""",
+                "@CrystalBot_chat",
+                text=f"""**Hey![🤗]({REBEL_help_pic}) This is [CrystalBot.](https://t.me/CrystalBot_chat)\nYou can know more about me from the links given below 👇**""",
                 buttons=[
                     [
-                        custom.Button.url("🔥 CHANNEL 🔥", "https://t.me/Lynx_userbot"),
+                        custom.Button.url("🔥 CHANNEL 🔥", "https://t.me/Crystall_userbot"),
                         custom.Button.url(
-                            "⚡ GROUP ⚡", "https://t.me/LynxBot_chat"
+                            "⚡ GROUP ⚡", "https://t.me/CrystalBot_Chat"
                         ),
                     ],
                     [
                         custom.Button.url(
-                            "🔰 REPO 🔰", "https://github.com/Itz-UNKOWN-xd/Lynx-Bot"),
+                            "🔰 REPO 🔰", "https://github.com/SAKSHIXOM/Crystal-UserBo"),
                         custom.Button.url
                     (
                             "🔰 TUTORIAL 🔰", ""
@@ -123,14 +123,14 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     async def page(event):
         if not event.query.user_id == bot.uid:
             return await event.answer(
-                "HELLO THERE. PLEASE MAKE YOUR OWN LynxBot AND USE. © LynxBot ™",
+                "HELLO THERE. PLEASE MAKE YOUR OWN LynxBot AND USE. © CrystalBot ™",
                 cache_time=0,
                 alert=True,
             )
         page = int(event.data_match.group(1).decode("UTF-8"))
         veriler = button(page, CMD_HELP)
         await event.edit(
-            f"**Legenday AF LynxBot[⚡🔥]({REBEL_help_pic})[.](https://t.me/LynxBot_chat) __Working...__\n\n**Number of modules installed :** `{len(CMD_HELP)}`\n**page:** {page + 1}/{veriler[0]}",
+            f"**Legenday AF CrystalBot[⚡🔥]({REBEL_help_pic})[.](https://t.me/CrystalBot_chat) __Working...__\n\n**Number of modules installed :** `{len(CMD_HELP)}`\n**page:** {page + 1}/{veriler[0]}",
             buttons=veriler[1],
             link_preview=True,
         )
@@ -139,10 +139,10 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     async def on_plug_in_callback_query_handler(event):
         if event.query.user_id == bot.uid:
             await delete_REBEL(event,
-              f"⚜️LynxBot Menu Provider Is now Closed[⚜️]({REBEL_help_pic})\n\n         **[© LynxBot ™](t.me/LynxBot_chat)**[⚡🔥]({REBEL_help_pic})", 5, link_preview=True
+              f"⚜️CrystalBot Menu Provider Is now Closed[⚜️]({REBEL_help_pic})\n\n         **[© CrystalBot ™](t.me/CrystalBot_chat)**[⚡🔥]({REBEL_help_pic})", 5, link_preview=True
             )
         else:
-            REBEL_alert = "HELLO THERE. PLEASE MAKE YOUR OWN REBELBOT AND USE. © LynxBot ™"
+            REBEL_alert = "HELLO THERE. PLEASE MAKE YOUR OWN CrystalBot AND USE. © CrystalBot ™"
             await event.answer(REBEL_alert, cache_time=0, alert=True)
           
     @tgbot.on(
@@ -151,7 +151,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     async def Information(event):
         if not event.query.user_id == bot.uid:
             return await event.answer(
-                "HELLO THERE. PLEASE MAKE YOUR OWN LynxBot AND USE. © LynxBot ™",
+                "HELLO THERE. PLEASE MAKE YOUR OWN CrystalBot AND USE. © CrystalBot ™",
                 cache_time=0,
                 alert=True,
             )
@@ -184,7 +184,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     async def commands(event):
         if not event.query.user_id == bot.uid:
             return await event.answer(
-                "HELLO THERE. PLEASE MAKE YOUR OWN LynxBot AND USE. © LynxBot ™",
+                "HELLO THERE. PLEASE MAKE YOUR OWN CrystalBot AND USE. © CrystalBot ™",
                 cache_time=0,
                 alert=True,
             )
