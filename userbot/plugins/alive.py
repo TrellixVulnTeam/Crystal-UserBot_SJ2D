@@ -10,7 +10,7 @@ from telethon.tl.types import ChannelParticipantsAdmins
 from userbot.cmdhelp import CmdHelp
 
 # 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "LynxBot"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "CrystalBot"
 
 ludosudo = Config.SUDO_USERS
 
@@ -23,12 +23,12 @@ REBEL = bot.uid
 
 edit_time = 4
 """ =======================CONSTANTS====================== """
-file1 = "https://te.legra.ph/file/6cca1206e094255badc94.jpg"
-file2 = "https://te.legra.ph/file/ea7e4fa36eab1a2d62fd8.jpg"
-file3 = "https://te.legra.ph/file/9d74a0bbeb63cc3b09759.jpg"
-file4 = "https://te.legra.ph/file/9d74a0bbeb63cc3b09759.jpg"
+file1 = "https://te.legra.ph/file/4356d5e1aa3ce00a2e87a.jpg"
+file2 = "https://te.legra.ph/file/21a4541d14e8a70a64652.jpg"
+file3 = "https://te.legra.ph/file/3082b57731ced0d858e13.jpg"
+file4 = "https://te.legra.ph/file/e0e994e33fca93ec2da37.jpg"
 """ =======================CONSTANTS====================== """
-pm_caption = "  __**🔥🔥𝐋𝐲𝐧𝐱𝐁𝐨𝐭  𝐈𝐒 𝐀𝐋𝐈𝐕𝐄🔥🔥**__\n\n"
+pm_caption = "  __**🔥🔥𝐂𝐫𝐲𝐬𝐭𝐚𝐥𝐁𝐨𝐭  𝐈𝐒 𝐀𝐋𝐈𝐕𝐄🔥🔥**__\n\n"
 
 pm_caption += f"**━━━━━━━━━━━━━━━━━━━━━━━━━━━**\n\n"
 pm_caption += (
@@ -38,16 +38,16 @@ pm_caption += f"┏━━━━━━━━━━━━━━━━━━\n"
 pm_caption += f"┣•➳➠ `𝚃𝚎𝚕𝚎𝚝𝚑𝚘𝚗:` `{version.__version__}` \n"
 pm_caption += f"┣•➳➠ `𝚅𝚎𝚛𝚜𝚒𝚘𝚗:` `{REBELversion}`\n"
 pm_caption += f"┣•➳➠ `𝚂𝚞𝚍𝚘:` `{sudou}`\n"
-pm_caption += f"┣•➳➠ `𝙲𝚑𝚊𝚗𝚗𝚎𝚕:` [𝙹𝙾𝙸𝙽](https://t.me/lynx_userbot)\n"
-pm_caption += f"┣•➳➠ `𝙲𝚛𝚎𝚊𝚝𝚘𝚛:` [Mr.Developer](https://t.me/mr_developer_xd)\n"
-pm_caption += f"┣•➳➠ `𝙲𝚛𝚎𝚊𝚝𝚘𝚛:` [Mrs.Developer](https://t.me/mrs_developer_xdd)\n"
-pm_caption += f"┣•➳➠ `Do Join:` [Love Yourself](https://t.me/Loveee_yourselff)\n"
+pm_caption += f"┣•➳➠ `𝙲𝚑𝚊𝚗𝚗𝚎𝚕:` [𝙹𝙾𝙸𝙽](https://t.me/crystall_userbot)\n"
+pm_caption += f"┣•➳➠ `𝙲𝚛𝚎𝚊𝚝𝚘𝚛:` [Mr.Developer](https://t.me/sakshii_xd)\n"
+pm_caption += f"┣•➳➠ `𝙲𝚛𝚎𝚊𝚝𝚘𝚛:` [Mrs.Developer](https://t.me/TERA_BAAP_OM)\n"
+pm_caption += f"┣•➳➠ `Do Join:` [Love Yourself](https://t.me/Lovely_squad)\n"
 pm_caption += f"┗━━━━━━━━━━━━━━━━━━\n"
-pm_caption += " [🔥𝐑𝐄𝐏𝐎🔥](https://github.com/Itz-UNKOWN-xd/Lynx-Bot) 🔹 Do Join [📜Love Yourself📜](https://t.me/Loveee_yourselff)"
+pm_caption += " [🔥𝐑𝐄𝐏𝐎🔥](https://github.com/SAKSHIXOM/Crystal-Bot)"
 
 # @command(outgoing=True, pattern="^.lynx$")
-@bot.on(admin_cmd(outgoing=True, pattern="lynx$"))
-@bot.on(sudo_cmd(pattern="lynx$", allow_sudo=True))
+@bot.on(admin_cmd(outgoing=True, pattern="crystal$"))
+@bot.on(sudo_cmd(pattern="crystal$", allow_sudo=True))
 async def amireallyalive(alive):
     await alive.get_chat()   
     await alive.delete()
