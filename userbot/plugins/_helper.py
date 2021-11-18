@@ -15,7 +15,7 @@ async def yardim(event):
     tgbotusername = Config.TG_BOT_USER_NAME_BF_HER
     input_str = event.pattern_match.group(1)
     if tgbotusername is not None or REBEL_input == "text":
-        results = await event.client.inline_query(tgbotusername, "@LynxBot_chat")
+        results = await event.client.inline_query(tgbotusername, "@CrystalBot_chat")
         await results[0].click(
             event.chat_id, reply_to=event.reply_to_msg_id, hide_via=True
         )
@@ -40,7 +40,7 @@ async def info(event):
     input_str = event.pattern_match.group(1)
     if input_str == "text":
         string = (
-            "Total {count} commands found in {plugincount} sudo plugins of LynxBot\n\n"
+            "Total {count} commands found in {plugincount} sudo plugins of CrystalBot\n\n"
         )
         REBELcount = 0
         plugincount = 0
