@@ -20,7 +20,7 @@ PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 REBELPIC = (
     PMPERMIT_PIC
     if PMPERMIT_PIC
-    else "https://te.legra.ph/file/338fc54821836d72bdedf.jpg"
+    else "https://te.legra.ph/file/d9d6d2fa4106c3390670c.jpg"
 )
 PM_WARNS = {}
 PREV_REPLY_MESSAGE = {}
