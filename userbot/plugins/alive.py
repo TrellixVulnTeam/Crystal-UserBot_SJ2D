@@ -39,9 +39,9 @@ pm_caption += f"┣•➳➠ `𝚃𝚎𝚕𝚎𝚝𝚑𝚘𝚗:` `{version.__ver
 pm_caption += f"┣•➳➠ `𝚅𝚎𝚛𝚜𝚒𝚘𝚗:` `{REBELversion}`\n"
 pm_caption += f"┣•➳➠ `𝚂𝚞𝚍𝚘:` `{sudou}`\n"
 pm_caption += f"┣•➳➠ `𝙲𝚑𝚊𝚗𝚗𝚎𝚕:` [𝙹𝙾𝙸𝙽](https://t.me/crystall_userbot)\n"
-pm_caption += f"┣•➳➠ `𝙲𝚛𝚎𝚊𝚝𝚘𝚛:` [Mr.Developer](https://t.me/sakshii_xd)\n"
-pm_caption += f"┣•➳➠ `𝙲𝚛𝚎𝚊𝚝𝚘𝚛:` [Mrs.Developer](https://t.me/TERA_BAAP_OM)\n"
-pm_caption += f"┣•➳➠ `Do Join:` [Love Yourself](https://t.me/Lovely_squad)\n"
+pm_caption += f"┣•➳➠ `𝙲𝚛𝚎𝚊𝚝𝚘𝚛:` [Sakshi](https://t.me/sakshii_xd)\n"
+pm_caption += f"┣•➳➠ `𝙲𝚛𝚎𝚊𝚝𝚘𝚛:` [Om](https://t.me/TERA_BAAP_OM)\n"
+pm_caption += f"┣•➳➠ `Do Join:` [Lovely Squad](https://t.me/Lovely_squad)\n"
 pm_caption += f"┗━━━━━━━━━━━━━━━━━━\n"
 pm_caption += " [🔥𝐑𝐄𝐏𝐎🔥](https://github.com/SAKSHIXOM/Crystal-Bot)"
 
